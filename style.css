@@ -1,0 +1,39 @@
+body {
+  margin:0;
+}
+.wrapper {
+  margin: auto;
+  max-width: 1500px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.workspace {
+  width: 1494px;
+  height: 400px;
+  border: solid 3px black;
+  position: relative;
+  overflow:hidden;
+}
+.point {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 150%;
+}
+.cluster {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 150%;
+  opacity: 0.7;
+}
+#input_form {
+  margin-top: 5px;
+}
+span#color-tag {
+  width:30px;
+  display:inline-block;
+}

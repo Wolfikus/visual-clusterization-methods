@@ -1,0 +1,22 @@
+<body>
+  <div class="wrapper">
+    <div class="workspace"></div>
+    <div id="input_form">
+<form>
+  <input type="radio" name="type" id="p1" checked>Point
+  <input type="radio" name="type" id="p2">Cluster
+  <input type="range" min="0" max="4" step="1" value="0" id="p3">Cluster Color:
+  <span id="color-tag">Gray</span>
+  <span style="margin-left:50px">Clusterize Type</span>
+  <select id="select">
+    <option value="e_mid">Euclidean Distance (K-Means)</option>
+    <option value="e_med">Euclidean Distance (K-Medians)</option>
+    <option value="m_mid">Manhattan Distance (K-Means)</option>
+    <option value="m_med">Manhattan Distance (K-Medians)</option>
+  </select>
+  <input id="run" type="button" value="Run Process"> 
+  <input id="clr" type="button" style="" value="Clear">
+</form>
+</div>
+  </div>
+</body>
